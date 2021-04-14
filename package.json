@@ -1,0 +1,28 @@
+{
+  "name": "aws-secretsmanager-local",
+  "version": "1.0.0",
+  "description": "A local version of AWS Secrets Manager for development",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RohanNagar/aws-secretsmanager-local.git"
+  },
+  "keywords": [
+    "aws",
+    "secretsmanager",
+    "express"
+  ],
+  "author": "Rohan Nagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RohanNagar/aws-secretsmanager-local/issues"
+  },
+  "homepage": "https://github.com/RohanNagar/aws-secretsmanager-local#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
